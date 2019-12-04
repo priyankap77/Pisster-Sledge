@@ -11,7 +11,7 @@
   padding-bottom: 0px;
 }
 .fa {
-  padding-top: 70px;
+  padding-top: 100px;
   padding-bottom: 0px;
   margin-left: 15px;
   font-size: 40px;
@@ -26,28 +26,42 @@
 .fa-instagram {
   color: pink;
               }
-.navbar {
-    overflow: hidden;
-    padding: 400px;
-        }
-}
 #navigation-menu {
   padding-top: 20px;
+  padding-bottom: 20px;
   padding-left: 20px;
   padding-right: 20px;
+  overflow: hidden;
 }
-p {
-  text-align:center;
-  padding-top: 50px;
-  }
 h1 {
   text-align:center;
   padding-top: 30px;
 }
+div.a {
+  word-wrap: break-word;
+}
+h3 {
+  text-align:center;
+  padding-left: 180px;
+  padding-right: 180px;
+  font-size: 20px;
+}
+p {
+  text-align:center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  }
 ul {
   margin: 0 auto;
   width: 500px;
    }
+p.fred {
+  line-height: 2;
+}
+#FindYourThrone {
+  text-align:center;
+  padding-top: 10px;
+}
 .card-deck {
   width: 1200px;
 }
