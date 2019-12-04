@@ -1,31 +1,35 @@
-#social-icons {
-  padding-top: 10px;
-  padding-bottom: 5px;
-  margin-left: 15px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-end;
   text-decoration: none;
   border-radius: 50%
+}
+.flex-container {
+  padding-right: 40px;
+  padding-bottom: 0px;
 }
 .fa {
-  padding-top: 10px;
-  padding-bottom: 5px;
+  padding-top: 70px;
+  padding-bottom: 0px;
   margin-left: 15px;
-  font-size: 30px;
+  font-size: 40px;
   width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%
-}
+    }
 .fa:hover {
   opacity: 0.7;
-}
+          }
 .fa-twitter {
-  color: blue;
-}
+  color: light-yellow;
+            }
 .fa-instagram {
   color: pink;
+              }
+.navbar {
+    overflow: hidden;
+    padding: 400px;
+        }
 }
 #navigation-menu {
   padding-top: 20px;
