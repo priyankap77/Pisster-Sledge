@@ -13,3 +13,34 @@
   width: 80px;
   height: 250px;
 }
+p {color: yellow}
+
+
+#navigation-menu {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.4);
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #f0d233;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-item {
+  padding:30px;
+}
+
+.nav-item.text{
+  padding-top: 50px;
+}
+
+.text-center {padding-top: -10px; }
