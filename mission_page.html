@@ -79,6 +79,13 @@
       Find peeace, without compromising hygiene and comfort.
     </p>
   </div>​
+  <div class="container">
+    <h3>Popover Example</h3>
+    <button type="button" data-toggle="popover" title="St. Paul's Cathedral">St. Paul's Cathedral</button>
+    <ul class="list-inline">
+      <li><a href="#" title="St. Paul's Cathedral" data-toggle="popover" data-placement="left" data-content="Location" data-content="Pisstory" data-content="Review a Loo"</a></li>
+    </ul>
+  </div>
   <div class="card-deck">
     <div class="card">
       <img class="card-img-top" src="biopicgrad.JPG" alt="Card image cap" />
@@ -121,5 +128,10 @@
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
     ></script>
+    <script>
+      $(document).ready(function(){
+      $('[data-toggle="popover"]').popover();
+                                  });
+    </script>
   </body>
 </html>
