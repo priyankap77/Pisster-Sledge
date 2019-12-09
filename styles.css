@@ -1,8 +1,15 @@
-div.absolute {
+
+#StPauls {
   position: absolute;
-  top: 400px;
-  right: 60;
+  top: 330px;
+  right: 300px;
   width: 200px;
-  height: 100px;
-  border: 3px solid #73AD21;
+  height: 200px;
+}
+#Shard {
+  position: absolute;
+  top: 650px;
+  right: 135px;
+  width: 80px;
+  height: 250px;
 }

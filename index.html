@@ -35,8 +35,10 @@
 
   <div class="main" id="home">
 
-
-
+  <!-- St Paul Button Absolute Position -->
+  <button type="button" id="StPauls" data-toggle="popover" data-toggle="popover" data-placement="bottom" title="St.PaulsCathedral" data-content="Location">St. Paul's Cathedral</button>
+  <button type="button" id="Shard" data-toggle="popover"  data-placement="bottom" title="TheShard">The Shard</button>
+<a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Click</a>
   </div>
   <img src="images/background_image_main_page.jpg" alt="background" style="width:100%">
 </div>
@@ -46,6 +48,14 @@
 <script
 src="http://code.jquery.com/jquery-3.4.1.min.js">
 </script>
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+  $('#blah').click(function(e) {
+    e.preventDefault();
+  })
+</script>
 
 <style type="text/css">
 body {background-color:white;
@@ -54,8 +64,6 @@ body {background-color:white;
 </style>
 
 </div>
-<div class="absolute">Monkey nuts</div>
-
 <h1>Hello Team Pisster Sledge</!</h1>
 <p>Wee help you find a FREE WC!</p>
 <p>Miss in need of a piss?</p>
@@ -64,4 +72,15 @@ body {background-color:white;
 <p>#PEEDOMFIGHTERS</p>
 <p>Discover our mission <a href="mission_page.html">here</a>.</p>
 </body>
+<script
+src="http://code.jquery.com/jquery-3.4.1.min.js">
+</script>
+<script>
+  $(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+  });
+  $('#blah').click(function(e) {
+    e.preventDefault();
+  })
+</script>
 </html>
