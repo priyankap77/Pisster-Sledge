@@ -81,12 +81,14 @@
   </div>​
   <div class="container">
     <h3>Popover Example</h3>
-    <button type="button" data-toggle="popover" title="St. Paul's Cathedral">St. Paul's Cathedral</button>
+    <button type="button" data-toggle="popover"  data-placement="bottom" title="St. Paul's Cathedral">St. Paul's Cathedral</button>
     <ul class="list-inline">
       <li><a href="#" title="St. Paul's Cathedral" data-toggle="popover" data-placement="left" data-content="Location" data-content="Pisstory" data-content="Review a Loo"</a></li>
     </ul>
   </div>
+  <a href='#' id='blah' title="Header" data-toggle="popover" data-placement="bottom" data-content="Content">Click</a>
   <div class="card-deck">
+  <div class="absolute">Monkey nuts</div>
     <div class="card">
       <img class="card-img-top" src="biopicgrad.JPG" alt="Card image cap" />
       <div class="card-body">
@@ -130,8 +132,11 @@
     ></script>
     <script>
       $(document).ready(function(){
-      $('[data-toggle="popover"]').popover();
-                                  });
+        $('[data-toggle="popover"]').popover();
+      });
+      $('#blah').click(function(e) {
+        e.preventDefault();
+      })
     </script>
   </body>
 </html>
