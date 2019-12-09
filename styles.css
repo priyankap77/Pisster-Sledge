@@ -1,5 +1,3 @@
-p {color: blue}
-
 
 #navigation-menu {
   padding-top: 20px;
@@ -13,4 +11,20 @@ p {color: blue}
 .navbar-light .navbar-nav .nav-link{
   color: #f0d233;
   font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
 }
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.nav-item {
+  padding:30px;
+}
+
+.nav-item.text{
+  padding-top: 50px;
+}
+
+.text-center {padding-top: -10px; }
