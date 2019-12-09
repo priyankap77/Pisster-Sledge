@@ -63,6 +63,14 @@ p.fred {
   text-align:center;
   padding-top: 10px;
 }
+div.absolute {
+  position: absolute;
+  top: 400px;
+  right: 60;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
 .card-deck {
   width: 1200px;
 }
