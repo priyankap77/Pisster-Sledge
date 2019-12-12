@@ -13,3 +13,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
                       }
+bootstrap.bundle.min.js
