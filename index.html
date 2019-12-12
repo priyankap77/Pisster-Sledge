@@ -6,7 +6,11 @@
   <link rel="icon" href="logo.png">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css" />
-  <script scr="bootstrap.bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script scr="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -37,29 +41,23 @@
     </div>
   </nav>
 
+
   <div class="main" id="home">
-
   <!-- St Paul Button Absolute Position -->
-  <button type="button" id="StPauls" data-toggle="popover" data-placement="bottom" title="St.PaulsCathedral" data-content="Location">St. Paul's Cathedral</button>
-  <button type="button" id="Shard" data-toggle="popover"  data-placement="bottom" title="TheShard">The Shard</button>
-  <button type="button" id="Gherkin" data-toggle="popover"  data-placement="bottom" title="Gherkin">The Gherkin</button>
-<a href="#" title="Header" data-toggle="popover" data-placement="top" data-content="Content">Click</a>
+  <button class="button" id="StPauls" data-toggle="popover" title="St.PaulsCathedral" data-content="Location" data-trigger="focus">St.Paul's Cathedral</button>
+  <button class="button" id="Shard" data-toggle="popover"  data-placement="bottom" title="TheShard">The Shard</button>
+  <button class="button" id="Gherkin" data-toggle="popover"  data-placement="bottom" title="Gherkin">The Gherkin</button>
   </div>
+
   <img src="images/background_image_main_page.jpg" alt="background" style="width:100%">
-</div>
 
-
-
-<script
-src="http://code.jquery.com/jquery-3.4.1.min.js">
-</script>
-<script>
+<script scr="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
   $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();
+  $('[data-toggle="popover"]').popover();
   });
-  $('#blah').click(function(e) {
-    e.preventDefault();
-  })
+  $('#StPauls').ready(function(){
+    .popover();
+    })
 </script>
 
 <style type="text/css">
@@ -77,15 +75,4 @@ body {background-color:white;
 <p>#PEEDOMFIGHTERS</p>
 
 </body>
-<script
-src="http://code.jquery.com/jquery-3.4.1.min.js">
-</script>
-<script>
-  $(document).ready(function(){
-    $('[data-toggle="popover"]').popover();
-  });
-  $('#blah').click(function(e) {
-    e.preventDefault();
-  })
-</script>
 </html>
