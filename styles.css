@@ -1,4 +1,27 @@
 
+#StPauls {
+  position: absolute;
+  top: 330px;
+  right: 300px;
+  width: 200px;
+  height: 200px;
+  content: orange;
+}
+#Shard {
+  position: absolute;
+  top: 650px;
+  right: 135px;
+  width: 80px;
+  height: 250px;
+}
+#Gherkin {
+    position: absolute;
+    top: 450px;
+    right: 35px;
+    width: 80px;
+    height: 250px;
+}
+
 p {color: yellow}
 
 
@@ -9,7 +32,6 @@ p {color: yellow}
   padding-right: 20px;
   overflow: hidden;
   background: rgba(255,255,255,0.4);
-
 }
 .navbar-light .navbar-nav .nav-link{
   color: #f0d233;

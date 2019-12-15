@@ -1,25 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-  <link rel="stylesheet" type="text/css" href="C:\Users\welcome\Documents\GitHub\Pisster-Sledge\Pisstory_Page.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" id="social-icons">
+    <div class="flex-container">
+      <div><a href="https://www.instagram.com/pisster_sledge/" class="fa fa-instagram" target="_blank"></a></div>
+      <div><a href="https://twitter.com/peefree2" class="fa fa-twitter" target="_blank"></a></div>
+    </div>
+  <link rel="stylesheet" href="mission_page.css" />
+<script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!--<link rel="stylesheet" type="text/css" href="Pisstory_Page.css">-->
   <title>A Brief Pisstory of London</title>
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
   <style type="text/css">
-    body {
-      background-color: white;
-      background-image: url("pd_background.png");
-      background-size: cover;
-      background-size: center;
+        body {
+          background-color: white;
+          background-image: url("pd_background.png");
+          background-size: left;
+          font-family: sans-serif;
+          font-size: 20px
+          padding-left: 50px
     }
+    h1 {
+      font-weight: bold;
+      padding-top: 90px;
+      padding-bottom: 35px;
+    }
+  div class="card-deck" {
+    left: 50%;
+    margin-right: -50%;
+  }
   </style>
 </head>
 <body>
-  <div class="flex-container">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigation-menu">
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item text">
+          <a class="nav-link" href="mission_page.html">OUR MISSION</a>
+        </li>
+        <li class="nav-item text">
+          <a class="nav-link" href="#">CONTACT US</a>
+        </li>
+        <li class="nav-item">
+          <div class="text-center">
+
+            <img id="home-image" src="logo.png" alt="Logo" width="100px">
+
+          </div>
+        </li>
+        <li class="nav-item text">
+          <a class="nav-link" href="#">REVIEW A LOO</a>
+        </li>
+        <li class="nav-item text">
+          <a class="nav-link" href="#">PISSTORY</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="main" id="home">
+  <!--<div class="flex-container">
         <div><a href="https://www.instagram.com/pisster_sledge/" class="fa fa-instagram" target="_blank"></a></div>
         <div><a href="https://twitter.com/peefree2" class="fa fa-twitter" target="_blank"></a></div>
-      </div>
-  <h1>Ever stop to think about the history of a public loo?</h1>
-  <p>Did you know that the public toilet is an Ancient Roman Invention? No, neither did wee...</p>
+      </div>-->
+  <h1>Ever stop to think about the history of a public loo?
+</h1>
+  <div>
+    <p>Did you know that the public toilet is an Ancient Roman Invention? No, neither did wee...</p>
   <p>The first public toilets as we know them didn't arrive in London until 1851, imagine having to cross your legs for that long! </p>
   <p>These toilets were designed and opened for men, and it took lobbying from a newly formed group called the Ladies Sanitary Association from 1851 onwards to create public loos for women</p>
 
@@ -29,9 +83,31 @@
 </p>
   <p>London's oldest public toilets can be found in Wesley's Chapel on City Road- they're original Crappers! </p>
   <p> Now, thanks to the Mayor of London, you can use a loo in any department store, National museum or gallery or train station for free. </p>
-    <img src="C:\Users\welcome\Documents\GitHub\Pisster-Sledge\Photos\Womens_sanitary_association.png" width="350px"
-           height="200px">
-           <img src="C:\Users\welcome\Documents\GitHub\Pisster-Sledge\Photos\womens-toilets-gt-exhibition.jpg" width="350px"
-                  height="200px">
+</div>
+<div class="card-deck">
+<div class="card" style="width: 18rem;">
+  <img src=".\Photos\Ladies-sanitary-2.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">A document from the Ladies Sanitary Association</h5>
+    <p class="card-text">This group was set up to lobby town planners to provide public toilets for women. This was an important step in fighting the cholera epedemic.</p>
+    <a href="https://wellcomelibrary.org/item/b21460267#?c=0&m=0&s=0&cv=2&z=-0.3043%2C0.2864%2C1.8399%2C0.9297" class="btn btn-primary">Read the full document</a>
+  </div>
+
+</div>
+<div class="card" style="width: 18rem;">
+  <img src=".\Photos\womens-toilets-gt-exhibition.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Women Gather at the Great Exhibition</h5>
+    <p class="card-text">The Great Exhibition took place in 1851 and showcased the first public toilets alongside pianos, perfume, pottery. There were over 100,00 objects on display.</p>
+    <a href="https://www.historic-uk.com/HistoryUK/HistoryofEngland/Great-Exhibition-of-1851/" class="btn btn-primary">Want to know more?</a>
+  </div>
+</div>
+</div>
+
+
+  <!--<img src=".\Photos\Womens_sanitary_association.png" width="500px"
+           height="500px">
+           <img src=".\Photos\womens-toilets-gt-exhibition.jpg" width="500px"
+                  height="500px">-->
 </body>
 </html>
