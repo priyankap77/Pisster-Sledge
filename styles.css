@@ -39,11 +39,69 @@ button {
 }
 #Gherkin {
     position: absolute;
-    top: 450px;
-    right: 35px;
+    top: 320px;
+    right: 55px;
     width: 80px;
     height: 250px;
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
+#GherkinTitle {
+  color: black;
+  position: absolute;
+  top: 570px;
+  right: 60px;
+  font-family: bradley hand itc;
+  font-size: 20px;
+}
+#SGlobe {
+  position: absolute;
+  top: 625px;
+  right: 300px;
+  width: 130px;
+  height: 80px;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+#GlobeTitle {
+  width: 130px;
+  height: 80px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  word-wrap: normal;
+  top: 710px;
+  right: 300px;
+  font-family: bradley hand itc;
+  font-size: 20px;
+}
+#LEye {
+  position: absolute;
+  top: 730px;
+  left: 610px;
+  width: 220px;
+  height: 200px;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+#LEyeTitle {
+  width: 130px;
+  height: 80px;
+  color: black;
+  text-align: center;
+  position: absolute;
+  word-wrap: normal;
+  top: 925px;
+  left: 605px;
+  font-family: bradley hand itc;
+  font-size: 20px;
+}
+
+
+
 
 p {color: yellow}
 
