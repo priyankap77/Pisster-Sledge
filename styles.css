@@ -1,11 +1,23 @@
-
+button {
+    white-space: pre-wrap;
+}
 #StPauls {
   position: absolute;
   top: 330px;
   right: 300px;
   width: 200px;
   height: 200px;
-  content: orange;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+#StPaulsTitle {
+  color: black;
+  position: absolute;
+  top: 230px;
+  right: 320px;
+  font-family: bradley hand itc;
+  font-size: 20px;
 }
 #Shard {
   position: absolute;
@@ -13,6 +25,17 @@
   right: 135px;
   width: 80px;
   height: 250px;
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+#ShardTitle {
+  color: black;
+  position: absolute;
+  top: 932px;
+  right: 132px;
+  font-family: bradley hand itc;
+  font-size: 20px;
 }
 #Gherkin {
     position: absolute;
