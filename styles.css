@@ -5,6 +5,7 @@
   right: 300px;
   width: 200px;
   height: 200px;
+  content: orange;
 }
 #Shard {
   position: absolute;
