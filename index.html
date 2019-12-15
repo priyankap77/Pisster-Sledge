@@ -12,13 +12,6 @@
     />
     <!-- CORE CSS -->
     <link rel="stylesheet" href="styles.css" />
-    <!-- JQUERY CDN -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <!-- POPPER.JS FOR POPOVERS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <!-- BOOTSTRAP JS LIB -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <!-- CUSTOM JS -->
   </head>
 ​
   <body>
@@ -50,11 +43,11 @@
       </div>
     </nav>
     <!-- END NAVIGATION -->
-​
+
 
     <!-- St Paul Button Absolute Position -->
-    <button type="button"
-      button-class="button"
+    <button
+      type="button"
       id="StPauls"
       data-container="body"
       data-toggle="popover"
@@ -64,7 +57,6 @@
       >
       St.Paul's Cathedral
     </button>
-
     <button
       class="button"
       id="Shard"
@@ -91,8 +83,13 @@
       alt="background"
       style="width:100%"
     />
-
-
+    <!-- JQUERY CDN -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <!-- POPPER.JS FOR POPOVERS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <!-- BOOTSTRAP JS LIB -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- CUSTOM JS -->
     <script>
       $(document).ready(function() {
         $('[data-toggle="popover"]').popover();

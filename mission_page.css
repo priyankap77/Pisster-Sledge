@@ -50,6 +50,13 @@ padding:30px;
 padding-top: 50px;
               }
 .text-center {padding-top: -10px; }
+#Shard {
+  position: absolute;
+  top: 650px;
+  right: 135px;
+  width: 80px;
+  height: 250px;
+}
 h1 {
   text-align:center;
   padding-top: 50px;
