@@ -62,83 +62,125 @@
   </div>
 </nav>
 
-<form action="/signup" method="POST">
+<div class="form">
+<form id="contact-form" method="post" action="contact.php" role="form">
 
-  <p>
-    <label>First name</label>
-    <input type="text" value="Which sister are we speaking to?">
-  </p>
+  <div class="messages"></div>
 
-  <p>
-    <label>Last name</label>
-    <input type="text" value="You can lie... Just make it funny">
-  </p>
+  <div class="controls">
 
-  <p>
-    <label>Overall Rating</label>
-    <select>
-      <option>Rate</option>
-      <option>1 drop</option>
-      <option>2 drops</option>
-      <option>3 drops</option>
-      <option>4 drops</option>
-      <option>5 drops</option>
-    </select>
-  </p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_name">Firstname </label>
+          <input id="form_name" type="text" name="name" class="form-control" placeholder="?" required="required" data-error="Firstname is required.">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_lastname">Lastname </label>
+          <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="" required="required" data-error="Lastname is required.">
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+    </div>
 
-  <p>
-    <label>Cleanliness</label>
-    <select>
-      <option>Rate</option>
-      <option>1 drop</option>
-      <option>2 drops</option>
-      <option>3 drops</option>
-      <option>4 drops</option>
-      <option>5 drops</option>
-    </select>
-  </p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_email">Overall Rating</label>
+          <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+              <option></option>
+              <option>1 drop</option>
+              <option>2 drops</option>
+              <option>3 drops</option>
+              <option>4 drops</option>
+              <option>5 drops</option>
+          </select>
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
 
-  <p>
-    <label>Accessibility</label>
-    <select>
-      <option>Rate</option>
-      <option>1 drop</option>
-      <option>2 drops</option>
-      <option>3 drops</option>
-      <option>4 drops</option>
-      <option>5 drops</option>
-    </select>
-  </p>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_need">Cleanliness</label>
+          <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+              <option></option>
+              <option>1 drop</option>
+              <option>2 drops</option>
+              <option>3 drops</option>
+              <option>4 drops</option>
+              <option>5 drops</option>
+          </select>
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+    </div>
 
-  <p>
-    <label>Luxuries</label>
-    <select>
-      <option>Rate</option>
-      <option>1 drop</option>
-      <option>2 drops</option>
-      <option>3 drops</option>
-      <option>4 drops</option>
-      <option>5 drops</option>
-    </select>
-  </p>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_email">Accessibility</label>
+          <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+              <option></option>
+              <option>1 drop</option>
+              <option>2 drops</option>
+              <option>3 drops</option>
+              <option>4 drops</option>
+              <option>5 drops</option>
+          </select>
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
 
-  <p>
-    <label>Comment</label>
-    <input type="text" value="Any other comments?">
-  </p>
+      <div class="col-md-6">
+        <div class="form-group">
+          <label for="form_need">Luxuries</label>
+          <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+              <option></option>
+              <option>1 drop</option>
+              <option>2 drops</option>
+              <option>3 drops</option>
+              <option>4 drops</option>
+              <option>5 drops</option>
+          </select>
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
+    </div>
 
-  <p>
-    <label>
-      <input type="checkbox" value="terms">
-      I agree to the <a href="/terms">terms and conditions</a>
-    </label>
-  </p>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for="form_message">Anything else wee need to know</label>
+          <textarea id="form_message" name="message" class="form-control" placeholder="Any other comments..." rows="4" required="required" data-error="Please, leave us a message."></textarea>
+          <div class="help-block with-errors"></div>
+        </div>
+      </div>
 
-  <p>
-    <input type="submit" class="btn btn-success btn-send" value="SUBMIT YOUR REVIEW!">
-  </p>
-  
-</form>
+      <div class="col-md-12">
+        <label>
+          <input type="checkbox" value="terms">
+          I agree to the <a href="/terms">terms and conditions</a>
+        </label>
+      </div>
+      </div>
+      <div class="row">
+      <div class="col-md-12">
+
+      <div class="col-md-12">
+        <input type="submit" class="btn btn-success btn-send" value="SUBMIT YOUR REVIEW!">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+
+      </div>
+    </div>
+  </div>
+
+  </form>
 
 </body>
 
