@@ -3,22 +3,12 @@
 <head> </head>
 <style>
 
-#dd {
-  position: relative;
-  top: 30px;
-  right: 30px;
-  width: 20px;
-  height: 20px;
-  border: orange;
-  color: green;
-}
-.dropdown {
-  position: relative;
-  display: inline-block;
+.dropbtn {
+  position: absolute;
 }
 .dropdown-content {
   position: relative;
-  display: none;
+  display: inline-block;
   background-color: #f9f9f9;
   min-width: 160px;
 }
@@ -32,23 +22,54 @@
   font-size: 20px;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover #dd {background-color: #3e8e41;}
+.dropbtn-content a:hover {background-color: #f1f1f1;}
+.dropbtn:hover .dropdown-content {display: block;}
+.dropbtn:hover .dropbtn {background-color: #3e8e41;}
 
+#DD {
+  top: 90px;
+  left: 300px;
+  width: 20px;
+  height: 20px;
+  border: orange;
+  color: green;
+}
+#PP {
+  top: 70px;
+  right: 80px;
+  width: 20px;
+  height: 20px;
+  border: orange;
+  color: green;
+}
 </style>
 
 <body>
-  <div class="dropdown">
-    <button class="dropbtn" id="dd"
-    >
-    </button>
-    <div class="dropdown-content">
+<button
+  type="dropdown"
+  class="dropbtn"
+  id="DD"
+  >
+  <div class="dropdown-content">
       <a href="https://www.google.com/maps/place/St.+Paul">Location</a>
       <a href="file:///C:/Users/ejeff/OneDrive/Documents/coding_course/Pisster-Sledge/Pisstory_Page.html">Pisstory</a>
       <a href="https://www.w3schools.com/howto/howto_css_dropdown.asp">Review</a>
-    </div>
   </div>
+</button>
+
+
+  <button
+  type="dropdown"
+  class="dropbtn"
+  id="PP"
+  >
+  </button>
+  <div class="dropdown-content">
+      <a href="https://www.google.com/maps/place/St.+Paul">mustard</a>
+      <a href="file:///C:/Users/ejeff/OneDrive/Documents/coding_course/Pisster-Sledge/Pisstory_Page.html">Pisstory</a>
+      <a href="https://www.w3schools.com/howto/howto_css_dropdown.asp">Review</a>
+  </div>
+
 
 
 
