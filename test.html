@@ -4,7 +4,7 @@
 <style>
 
 .dropbtn {
-  position: absolute;
+  display: inline-block;
 }
 .dropdown-content {
   position: relative;
@@ -14,7 +14,6 @@
 }
 
 .dropdown-content a {
-  position: relative;
   color: red;
   padding: 12px 16px;
   text-decoration: none;
@@ -22,9 +21,9 @@
   font-size: 20px;
 }
 
-.dropbtn-content a:hover {background-color: #f1f1f1;}
-.dropbtn:hover .dropdown-content {display: block;}
-.dropbtn:hover .dropbtn {background-color: #3e8e41;}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
 
 #DD {
   top: 90px;
@@ -35,7 +34,7 @@
   color: green;
 }
 #PP {
-  top: 70px;
+  top: 200px;
   right: 80px;
   width: 20px;
   height: 20px;
@@ -45,8 +44,8 @@
 </style>
 
 <body>
-<button
-  type="dropdown"
+ <div class="dropdown">
+  <button
   class="dropbtn"
   id="DD"
   >
@@ -57,18 +56,17 @@
   </div>
 </button>
 
-
-  <button
-  type="dropdown"
-  class="dropbtn"
-  id="PP"
-  >
-  </button>
-  <div class="dropdown-content">
+<div class="dropdown">
+    <button
+      class="dropbtn"
+      id="PP"
+    >
+    </button>
+    <div class="dropdown-content">
       <a href="https://www.google.com/maps/place/St.+Paul">mustard</a>
       <a href="file:///C:/Users/ejeff/OneDrive/Documents/coding_course/Pisster-Sledge/Pisstory_Page.html">Pisstory</a>
       <a href="https://www.w3schools.com/howto/howto_css_dropdown.asp">Review</a>
-  </div>
+</div>
 
 
 
