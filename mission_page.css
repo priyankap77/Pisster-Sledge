@@ -36,8 +36,7 @@ background: rgba(255,255,255,0.4);
                  }
 .navbar-light .navbar-nav .nav-link{
 color: #F0D233;
-font-weight: bold;
-font-size: 20px;
+font-size: 21px;
 font-family: sans-serif;
                                   }
 .navbar-nav {
@@ -48,7 +47,9 @@ padding:30px;
           }
 .nav-item.text{
 padding-top: 50px;
-              }
+}
+
+
 .text-center {padding-top: -10px; }
 
 #StPdd {
@@ -72,8 +73,24 @@ padding-top: 50px;
 .dropdown:hover .dropbtn {background-color: #orange;}
 h1 {
   text-align:center;
-  padding-top: 50px;
+  padding-top: 60px;
+  color: #f0cf21;
 }
+
+h2 {
+  text-align:center;
+  padding-top: 50px;
+  color: #f0cf21;
+  font-size: 30pt;
+}
+
+h4 {
+  text-align:center;
+padding-top: 50px;
+color: #f0cf21;
+font-size: 30pt;
+}
+
 div.a {
   word-wrap: break-word;
 }
@@ -83,6 +100,7 @@ h3 {
   padding-left: 180px;
   padding-right: 180px;
   font-size: 20px;
+  color: grey;
 }
 p {
   text-align:center;
