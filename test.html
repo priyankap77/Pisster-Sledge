@@ -14,10 +14,11 @@
   color: green;
 }
 .dropdown {
-  position: relative;
+  position: absolute;
   display: inline-block;
 }
 .dropdown-content {
+  position: absolute;
   display: none;
   background-color: #f9f9f9;
   min-width: 160px;
@@ -33,12 +34,11 @@
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover #dd {background-color: #3e8e41;}
 
 </style>
 
 <body>
-
   <div class="dropdown">
     <button class="dropbtn" id="dd"
     >
