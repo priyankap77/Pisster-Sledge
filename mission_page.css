@@ -50,13 +50,26 @@ padding:30px;
 padding-top: 50px;
               }
 .text-center {padding-top: -10px; }
-#Shard {
+
+#StPdd {
   position: absolute;
-  top: 650px;
-  right: 135px;
-  width: 80px;
-  height: 250px;
+  top: 230px;
+  right: 300px;
+  width: 200px;
+  height: 200px;
+  color: orange;
 }
+.dropdown-content a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #grey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #orange;}
 h1 {
   text-align:center;
   padding-top: 50px;

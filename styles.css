@@ -1,13 +1,14 @@
 button {
     white-space: pre-wrap;
 }
+
 #StPauls {
   position: absolute;
   top: 330px;
-  right: 300px;
+  right: 600px;
   width: 200px;
   height: 200px;
-  color: transparent;
+  color: green;
   background-color: transparent;
   border-color: transparent;
 }
