@@ -7,11 +7,6 @@
   background: rgba(255,255,255,0.4);
 }
 
-.form {
-  margin-top:100px;
-margin-left: 70px;
-margin-right: 70px;
-}
 
 .navbar-light .navbar-nav .nav-link{
   color: #efcd14; important!
@@ -30,6 +25,12 @@ margin-right: 70px;
 
 .nav-item.text{
   padding-top: 50px;
+}
+
+.form {
+  margin-top:100px;
+margin-left: 70px;
+margin-right: 70px;
 }
 
 .text-center {padding-top: -10px; }
